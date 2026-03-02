@@ -99,6 +99,8 @@
             font-weight: 600;
             font-size: 0.95rem;
             transition: color 0.2s;
+            display: inline-flex;    /* This is the magic alignment fix */
+            align-items: center;     /* Centers the logo with the text perfectly */
         }
 
         .hero-links a:hover {
@@ -116,7 +118,7 @@
             width: 1.5rem;           /* Increased to make the logo visually larger */
             height: 1.5rem;          /* Increased to match the width */
             margin-right: 0.4rem;
-            transform: translateY(4px); /* This nudges the logo down visually */
+            /* transform: translateY(4px); /* This nudges the logo down visually */ */
             /* vertical-align: 0.4rem; /* Increased slightly more to keep it centered with the text */ */
             object-fit: contain;
             /* Remove the two forward slashes from the line below if you want the logo to turn grey! */
